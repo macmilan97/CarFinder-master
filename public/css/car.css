@@ -1,0 +1,98 @@
+.car-check-main {
+    margin-bottom: -150px;
+}
+
+.car-check-block input[type=checkbox] {
+    display: none;
+}
+
+.car-check-block .clicked {
+    background: #db2d2e;
+    color: white;
+}
+
+#messageModal ul li {
+    list-style: disc;
+}
+
+#messageModal .modal-body {
+    padding: 3rem;
+
+}
+
+@media screen and (max-width: 992px) {
+    .car-check-block img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .car-check-block .block-hide {
+        display: none;
+    }
+}
+
+.select-city-input {
+    display: none;
+}
+
+.label-city {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.profile-info li {
+    font-size: 15px;
+    color: black;
+    line-height: 10px;
+}
+.price-block .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    color: black;
+}
+.price-block .table-bordered > thead > tr > th  {
+    border-color: black;
+    border: 2px solid;
+    text-transform: uppercase;
+}
+.css_btn .delete-icon {
+    color: #db2d2e;
+}
+.css_btn .delete-icon:hover {
+    color: #ffffff;
+}
+.expert-description p {
+    color: black;
+}
+.pick-up .before, .after {
+    width: 50%;
+    margin-top: 35px;
+}
+.pick-up .after {
+    margin-top: -44px;
+    float: right;
+}
+.pick-up  .search-logo-box {
+    border: none;
+    box-shadow:none;
+}
+.team:hover .button{
+    background: black;
+}
+.team .team-image img {
+    height: 250px;
+}
+.type-active {
+    background: #db2d2e;
+    border-radius: 5px;
+}
+/*footer {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+body {
+    height: fit-content;
+}
+.table-responsive {
+    width: auto;
+}
